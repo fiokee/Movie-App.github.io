@@ -1,0 +1,27 @@
+.container {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    background-color: #292929;
+    color: white;
+}
+    .logo {
+      height: auto;
+      width: auto;
+      padding: 25px;
+      margin: 15px;
+      border: solid 1px #FFFFFF;
+      text-align: center;
+    }
+
+    .hero{
+        position: absolute;
+        width: 100%;
+        z-index: -1;
+        flex-shrink: 0;
+        min-width: 100%;
+         min-height: 100%;
+        
+    }
